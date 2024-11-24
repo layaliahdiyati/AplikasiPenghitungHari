@@ -18,6 +18,7 @@ public class PenghitungHariJFrame extends javax.swing.JFrame {
      */
     public PenghitungHariJFrame() {
         initComponents();
+        setTitle("APLIKASI PENGHITUNG HARI");
     }
 
     /**
