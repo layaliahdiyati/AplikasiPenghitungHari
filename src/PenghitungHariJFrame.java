@@ -65,6 +65,11 @@ public class PenghitungHariJFrame extends javax.swing.JFrame {
         });
 
         jButton2.setText("Hapus");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Keluar");
 
@@ -172,6 +177,14 @@ public class PenghitungHariJFrame extends javax.swing.JFrame {
             JumlahHariLabel.setText("Jumlah Hari Pada Bulan" + combobulan.getSelectedItem() + " Tahun " +tahun+" adalah "+JumlahHari);
     }//GEN-LAST:event_btnhitungActionPerformed
     }
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        texttahun.setText("");
+        combobulan.setSelectedItem("Januari");
+        JumlahHariLabel.setText("Jumlah Hari Adalah");
+        
+        
+    }//GEN-LAST:event_jButton2ActionPerformed
+    
     /**
      * @param args the command line arguments
      */
