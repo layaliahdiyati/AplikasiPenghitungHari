@@ -72,6 +72,11 @@ public class PenghitungHariJFrame extends javax.swing.JFrame {
         });
 
         jButton3.setText("Keluar");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout JumlahHariPanelLayout = new javax.swing.GroupLayout(JumlahHariPanel);
         JumlahHariPanel.setLayout(JumlahHariPanelLayout);
@@ -184,6 +189,10 @@ public class PenghitungHariJFrame extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+       System.exit(0);
+    }//GEN-LAST:event_jButton3ActionPerformed
     
     /**
      * @param args the command line arguments
